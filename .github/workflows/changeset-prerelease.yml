@@ -5,6 +5,9 @@ on:
     branches:
       - next
 
+permissions:
+  id-token: write
+
 jobs:
   changelog:
     timeout-minutes: 15
@@ -37,4 +40,3 @@ jobs:
           createGithubReleases: false
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
