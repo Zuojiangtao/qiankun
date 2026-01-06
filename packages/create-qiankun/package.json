@@ -2,6 +2,10 @@
   "name": "create-qiankun",
   "version": "0.0.1-rc.1",
   "description": "An easy way to start a qiankun project",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umijs/qiankun.git"
+  },
   "bin": {
     "create-qiankun": "./dist/index.js"
   },
