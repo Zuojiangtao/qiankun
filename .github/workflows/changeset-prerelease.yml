@@ -12,6 +12,7 @@ jobs:
   changelog:
     timeout-minutes: 15
     runs-on: ubuntu-latest
+    environment: changeset-release
     steps:
       - uses: actions/checkout@v3
 
