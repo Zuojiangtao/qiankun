@@ -50,13 +50,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kuitos/qiankun.git"
+    "url": "git+https://github.com/umijs/qiankun.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kuitos/qiankun/issues"
+    "url": "https://github.com/umijs/qiankun/issues"
   },
-  "homepage": "https://github.com/kuitos/qiankun#readme",
+  "homepage": "https://github.com/umijs/qiankun#readme",
   "lint-staged": {
     "**/*.{js,ts,json,css,md}": ["prettier --write --ignore-unknown"],
     "packages/*/{src,types}/**/*.ts": ["eslint --cache --ext .js,.jsx,.ts,.tsx --format=pretty --fix"],
